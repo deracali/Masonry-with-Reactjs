@@ -5,26 +5,26 @@ import img3 from './img/3.png'
 const Content = () => {
     return (
         <>
-            <div>
+            <div className='short'>
                 <h3>A note about style</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur amet consectetur  amet consectetur </p>
                 <a href="">Read More</a>
             </div>
-            <div>
+            <div className='tall'>
                 <img src={img1} alt="" />
             </div>
-            <div>
+            <div className='short'>
                 <h3>A note about style</h3>
                 <p>Lorem ipsum dolor sit amet</p>
                 <a href="">Read More</a>
             </div>
-            <div>
+            <div className='tall'>
                 <img src={img2} alt="" />
             </div>
-            <div>
+            <div className='tall'>
                 <img src={img3} alt="" />
             </div>
-            <div>
+            <div className='tall'>
                 <h3>A note about style</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. adipisicing elit</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. adipisicing elit</p>
@@ -32,15 +32,15 @@ const Content = () => {
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. adipisicing elit</p>
                 <a href="">Read More</a>
             </div>
-            <div>
+            <div className='tall'>
                 <img src={img1} alt="" />
             </div>
-            <div>
+            <div className='short'>
                 <h3>A note about style</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur amet consectetur  amet consectetur </p>
                 <a href="">Read More</a>
             </div>
-            <div>
+            <div className='short'>
                 <h3>A note about style</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur amet consectetur  amet consectetur amet consectetur amet consectetur</p>
                 <a href="">Read More</a>

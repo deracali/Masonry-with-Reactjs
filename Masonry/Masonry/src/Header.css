@@ -30,3 +30,14 @@ nav h1 div:first-child {
 nav h1 div:last-child {
   font-size: 400;
 }
+
+@media screen and (max-width: 620px) {
+  .Nav {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  nav h1 {
+    grid-column: 1 / span 4;
+    grid-row: 1;
+  }
+}
